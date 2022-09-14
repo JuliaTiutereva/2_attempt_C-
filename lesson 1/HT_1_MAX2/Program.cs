@@ -1,0 +1,11 @@
+﻿Console.WriteLine("Введите два числа");
+Console.Write("a = ");
+string Num1 = Console.ReadLine();
+int intNum1 = Convert.ToInt32(Num1);
+Console.Write("b = ");
+string Num2 = Console.ReadLine();
+int intNum2 = Convert.ToInt32(Num2);
+int max = intNum1;
+if (intNum2 > max) max = intNum2;
+Console.Write("max = ");
+Console.Write(max);
